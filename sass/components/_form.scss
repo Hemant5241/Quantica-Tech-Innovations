@@ -1,0 +1,38 @@
+.subscribe-form {
+    $subscribe-form: &;
+    width: 100%;
+    max-width: 42rem;
+
+    position: relative;
+
+    &__input {
+        padding: .8rem 1.5rem;
+        font-size: 1.6rem;
+        width: 100%;
+        border: none;
+    }
+
+    &__button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 4rem;
+        @include flex-center;
+        font-size: 1.8rem;
+        border: none;
+        outline: none;
+        background-color: var(--color-theme);
+        color: var(--color-white);
+    }
+
+    &.side-bar__search-form {
+        #{$subscribe-form}__input {
+            border: 1px solid rgba(189, 189, 189, 0.467);
+
+            &:focus {
+                border-color: var(--color-theme);
+            }
+        }
+    }
+}
