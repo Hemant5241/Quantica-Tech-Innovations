@@ -1,101 +1,62 @@
-# Quantica Tech Innovations
+# QUANTICA TECH INNOVATIONS 🚀
 
-**Quantica Tech Innovations** is a premium, fully responsive, and highly customizable website tailored for the modern corporate world and tech startups. 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://quantica-tech-innovations.netlify.app)
 
-This project provides a robust foundation for building professional portfolios, agency websites, and corporate landing pages. It has been designed and developed by **Hemant Bhosale** to reflect modern design standards and a comprehensive multi-page architecture.
+A premium, fully responsive, and highly customizable website tailored for the modern corporate world and tech startups. Built with a robust foundation for professional portfolios, agency websites, and corporate landing pages.
 
-## 🔗 Live Demo
-**[View the Live Project on Netlify](https://quantica-tech-innovations.netlify.app)**
-
----
-
-## 🌟 Key Features
-
-- **Fully Responsive Design**: Looks perfect on desktops, tablets, and mobile devices.
-- **Multi-Page Architecture**: Includes beautifully integrated, standalone pages for:
-  - `index.html` (Home)
-  - `about.html` (About Us)
-  - `services.html` (Services & Offerings)
-  - `portfolio.html` (Project Portfolio)
-  - `team.html` (Team Members)
-  - `blogs.html` (News & Articles)
-  - `blog-details-*.html` (Individual Blog Pages)
-  - `contact.html` (Contact Information)
-- **Modern UI/UX**: Clean aesthetic, subtle animations, sticky navigation, and a strong visual hierarchy.
-- **SASS Preprocessor**: Highly maintainable styling structure built on top of SCSS for easy theme customization.
-- **Developer Friendly**: Clean code, modular components, and ready for deployment.
+Developed & Maintained by **Hemant Bhosale** ([@Hemant5241](https://github.com/Hemant5241))
 
 ---
 
-## 🛠️ Technology Stack
+## 🎨 Design & Aesthetic Philosophy
+Quantica Tech Innovations is engineered for modern professional standards:
+* **Fully Responsive Design** — Fluid layouts that look perfect on desktops, tablets, and mobile devices.
+* **Multi-Page Architecture** — Includes beautifully integrated, standalone pages for Home, About Us, Services, Portfolio, Team, Blogs, and Contact.
+* **Modern UI/UX** — Clean aesthetic, subtle animations, sticky navigation, and a strong visual hierarchy.
+* **SASS Preprocessor** — Highly maintainable styling structure built on top of SCSS for easy theme customization.
 
-- **HTML5 & CSS3** (via SCSS)
-- **Vanilla JavaScript** (with jQuery for legacy DOM manipulation)
-- **FontAwesome & Custom Icons**
-- **Sass (Dart Sass)** for styling compilation
-- **npm-run-all & live-server** for local development
+---
+
+## ⚙️ Tech Stack
+* **Core Languages** — HTML5 & CSS3 (via SCSS)
+* **Scripting** — Vanilla JavaScript & jQuery
+* **Styling Engine** — Sass (Dart Sass)
+* **Build Tooling** — npm-run-all & live-server
+* **Vector Icons** — FontAwesome & Custom Icons
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-You will need the following installed on your machine:
-- **Node.js** (v14.x or higher recommended)
-- **npm** or **yarn**
-
 ### Installation
-
-1. Clone or download the repository to your local machine.
-2. Open a terminal in the root directory of the project.
-3. Install the dependencies:
+1. Clone the repository to your local machine.
+2. Install the dependencies:
    ```bash
    npm install
    ```
 
 ### Running the Development Server
-
-To start the local development server with Live Reloading and automatic SCSS compilation, simply run:
-
 ```bash
 npm run dev
 ```
-
-This command will:
-1. Start the SCSS compiler in watch mode (`sass --watch`).
-2. Launch a local web server (`live-server`) which automatically refreshes your browser whenever you save a file.
+This command starts the SCSS compiler in watch mode and launches a local web server (`live-server`) with Live Reloading.
 
 ### Building for Production
-
-If you want to compress and prefix your CSS for production deployment, run:
-
 ```bash
 npm run build:css
 ```
-This will compile the SCSS, add vendor prefixes for cross-browser compatibility, and compress the final `css/style.css` file.
+This compiles SCSS, adds vendor prefixes, and compresses the final CSS for production deployment.
 
 ---
 
 ## 📁 Directory Structure
-
 ```text
 📦 quanticatech
 ├── 📂 css           # Compiled CSS files
 ├── 📂 fonts         # Custom fonts and icon packs
 ├── 📂 img           # Images, backgrounds, logos, and assets
-├── 📂 js            # JavaScript files (main.js, vendors)
-├── 📂 sass          # SCSS source files (abstracts, components, layout, pages)
-├── 📄 *.html        # All HTML pages (index, about, services, blogs, etc.)
-├── 📄 package.json  # Project dependencies and npm scripts
-└── 📄 README.md     # Project documentation
+├── 📂 js            # JavaScript files
+├── 📂 sass          # SCSS source files
+├── 📄 *.html        # All HTML pages
+└── 📄 package.json  # Project dependencies
 ```
-
----
-
-## 👨‍💻 Author & Credits
-
-- **Developed by:** Hemant Bhosale
-- **Company:** Quantica Tech Innovations (2024)
-
-*© 2024 Quantica Tech Innovations. All rights reserved.*
