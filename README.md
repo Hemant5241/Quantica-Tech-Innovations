@@ -4,6 +4,9 @@
 
 This project provides a robust foundation for building professional portfolios, agency websites, and corporate landing pages. It has been designed and developed by **Hemant Bhosale** to reflect modern design standards and a comprehensive multi-page architecture.
 
+## 🔗 Live Demo
+**[View the Live Project on Netlify](https://quantica-tech-innovations.netlify.app)**
+
 ---
 
 ## 🌟 Key Features
